@@ -4,15 +4,6 @@
 
 This project implements a K-Nearest Neighbors (KNN) algorithm from scratch to predict the age of abalone based on physical measurements. The implementation includes finding the optimal K value, training the model, and evaluating its performance on both training and test sets.
 
-## Authors
-
-- Muhammd Huzaifa Rauf (211370180)
-- Ammad-Ud-Din (211370187)
-- Abdul Mateen (211370194)
-- Abdul Rehman Khan (211370196)
-
-ML-Section-A
-
 ## Requirements
 
 To run this project, you need the following Python libraries:
