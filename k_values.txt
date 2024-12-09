@@ -1,0 +1,350 @@
+K = 1:
+  Training Accuracy: 1.000
+  Test Accuracy: 0.209
+  Precision: 0.206
+  Recall: 0.209
+  F1-Score: 0.206
+
+K = 3:
+  Training Accuracy: 0.512
+  Test Accuracy: 0.221
+  Precision: 0.205
+  Recall: 0.221
+  F1-Score: 0.207
+
+K = 5:
+  Training Accuracy: 0.448
+  Test Accuracy: 0.246
+  Precision: 0.223
+  Recall: 0.246
+  F1-Score: 0.229
+
+K = 7:
+  Training Accuracy: 0.399
+  Test Accuracy: 0.230
+  Precision: 0.218
+  Recall: 0.230
+  F1-Score: 0.217
+
+K = 9:
+  Training Accuracy: 0.377
+  Test Accuracy: 0.230
+  Precision: 0.216
+  Recall: 0.230
+  F1-Score: 0.218
+
+K = 11:
+  Training Accuracy: 0.363
+  Test Accuracy: 0.249
+  Precision: 0.229
+  Recall: 0.249
+  F1-Score: 0.234
+
+K = 13:
+  Training Accuracy: 0.351
+  Test Accuracy: 0.242
+  Precision: 0.222
+  Recall: 0.242
+  F1-Score: 0.226
+
+K = 15:
+  Training Accuracy: 0.342
+  Test Accuracy: 0.252
+  Precision: 0.236
+  Recall: 0.252
+  F1-Score: 0.235
+
+K = 17:
+  Training Accuracy: 0.343
+  Test Accuracy: 0.255
+  Precision: 0.238
+  Recall: 0.255
+  F1-Score: 0.237
+
+K = 19:
+  Training Accuracy: 0.342
+  Test Accuracy: 0.257
+  Precision: 0.233
+  Recall: 0.257
+  F1-Score: 0.236
+
+K = 21:
+  Training Accuracy: 0.341
+  Test Accuracy: 0.261
+  Precision: 0.239
+  Recall: 0.261
+  F1-Score: 0.241
+
+K = 23:
+  Training Accuracy: 0.333
+  Test Accuracy: 0.278
+  Precision: 0.249
+  Recall: 0.278
+  F1-Score: 0.255
+
+K = 25:
+  Training Accuracy: 0.328
+  Test Accuracy: 0.276
+  Precision: 0.242
+  Recall: 0.276
+  F1-Score: 0.251
+
+K = 27:
+  Training Accuracy: 0.323
+  Test Accuracy: 0.285
+  Precision: 0.265
+  Recall: 0.285
+  F1-Score: 0.260
+
+K = 29:
+  Training Accuracy: 0.320
+  Test Accuracy: 0.275
+  Precision: 0.265
+  Recall: 0.275
+  F1-Score: 0.253
+
+K = 31:
+  Training Accuracy: 0.314
+  Test Accuracy: 0.288
+  Precision: 0.288
+  Recall: 0.288
+  F1-Score: 0.264
+
+K = 33:
+  Training Accuracy: 0.314
+  Test Accuracy: 0.284
+  Precision: 0.277
+  Recall: 0.284
+  F1-Score: 0.264
+
+K = 35:
+  Training Accuracy: 0.315
+  Test Accuracy: 0.281
+  Precision: 0.262
+  Recall: 0.281
+  F1-Score: 0.259
+
+K = 37:
+  Training Accuracy: 0.313
+  Test Accuracy: 0.284
+  Precision: 0.250
+  Recall: 0.284
+  F1-Score: 0.259
+
+K = 39:
+  Training Accuracy: 0.307
+  Test Accuracy: 0.268
+  Precision: 0.231
+  Recall: 0.268
+  F1-Score: 0.241
+
+K = 41:
+  Training Accuracy: 0.304
+  Test Accuracy: 0.270
+  Precision: 0.249
+  Recall: 0.270
+  F1-Score: 0.245
+
+K = 43:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.273
+  Precision: 0.245
+  Recall: 0.273
+  F1-Score: 0.248
+
+K = 45:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.268
+  Precision: 0.242
+  Recall: 0.268
+  F1-Score: 0.244
+
+K = 47:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.270
+  Precision: 0.242
+  Recall: 0.270
+  F1-Score: 0.246
+
+K = 49:
+  Training Accuracy: 0.304
+  Test Accuracy: 0.274
+  Precision: 0.246
+  Recall: 0.274
+  F1-Score: 0.250
+
+K = 51:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.278
+  Precision: 0.244
+  Recall: 0.278
+  F1-Score: 0.252
+
+K = 53:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.278
+  Precision: 0.243
+  Recall: 0.278
+  F1-Score: 0.253
+
+K = 55:
+  Training Accuracy: 0.304
+  Test Accuracy: 0.270
+  Precision: 0.237
+  Recall: 0.270
+  F1-Score: 0.246
+
+K = 57:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.271
+  Precision: 0.235
+  Recall: 0.271
+  F1-Score: 0.246
+
+K = 59:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.278
+  Precision: 0.239
+  Recall: 0.278
+  F1-Score: 0.252
+
+K = 61:
+  Training Accuracy: 0.298
+  Test Accuracy: 0.280
+  Precision: 0.238
+  Recall: 0.280
+  F1-Score: 0.252
+
+K = 63:
+  Training Accuracy: 0.298
+  Test Accuracy: 0.275
+  Precision: 0.234
+  Recall: 0.275
+  F1-Score: 0.248
+
+K = 65:
+  Training Accuracy: 0.300
+  Test Accuracy: 0.279
+  Precision: 0.238
+  Recall: 0.279
+  F1-Score: 0.251
+
+K = 67:
+  Training Accuracy: 0.303
+  Test Accuracy: 0.285
+  Precision: 0.244
+  Recall: 0.285
+  F1-Score: 0.255
+
+K = 69:
+  Training Accuracy: 0.302
+  Test Accuracy: 0.278
+  Precision: 0.240
+  Recall: 0.278
+  F1-Score: 0.249
+
+K = 71:
+  Training Accuracy: 0.302
+  Test Accuracy: 0.281
+  Precision: 0.245
+  Recall: 0.281
+  F1-Score: 0.251
+
+K = 73:
+  Training Accuracy: 0.302
+  Test Accuracy: 0.279
+  Precision: 0.243
+  Recall: 0.279
+  F1-Score: 0.250
+
+K = 75:
+  Training Accuracy: 0.305
+  Test Accuracy: 0.280
+  Precision: 0.245
+  Recall: 0.280
+  F1-Score: 0.251
+
+K = 77:
+  Training Accuracy: 0.299
+  Test Accuracy: 0.281
+  Precision: 0.252
+  Recall: 0.281
+  F1-Score: 0.251
+
+K = 79:
+  Training Accuracy: 0.299
+  Test Accuracy: 0.281
+  Precision: 0.251
+  Recall: 0.281
+  F1-Score: 0.250
+
+K = 81:
+  Training Accuracy: 0.299
+  Test Accuracy: 0.283
+  Precision: 0.248
+  Recall: 0.283
+  F1-Score: 0.252
+
+K = 83:
+  Training Accuracy: 0.294
+  Test Accuracy: 0.280
+  Precision: 0.251
+  Recall: 0.280
+  F1-Score: 0.249
+
+K = 85:
+  Training Accuracy: 0.293
+  Test Accuracy: 0.289
+  Precision: 0.258
+  Recall: 0.289
+  F1-Score: 0.257
+
+K = 87:
+  Training Accuracy: 0.292
+  Test Accuracy: 0.286
+  Precision: 0.256
+  Recall: 0.286
+  F1-Score: 0.254
+
+K = 89:
+  Training Accuracy: 0.291
+  Test Accuracy: 0.281
+  Precision: 0.252
+  Recall: 0.281
+  F1-Score: 0.250
+
+K = 91:
+  Training Accuracy: 0.296
+  Test Accuracy: 0.281
+  Precision: 0.249
+  Recall: 0.281
+  F1-Score: 0.251
+
+K = 93:
+  Training Accuracy: 0.291
+  Test Accuracy: 0.284
+  Precision: 0.257
+  Recall: 0.284
+  F1-Score: 0.253
+
+K = 95:
+  Training Accuracy: 0.288
+  Test Accuracy: 0.283
+  Precision: 0.300
+  Recall: 0.283
+  F1-Score: 0.252
+
+K = 97:
+  Training Accuracy: 0.287
+  Test Accuracy: 0.280
+  Precision: 0.298
+  Recall: 0.280
+  F1-Score: 0.248
+
+K = 99:
+  Training Accuracy: 0.285
+  Test Accuracy: 0.288
+  Precision: 0.304
+  Recall: 0.288
+  F1-Score: 0.255
+
