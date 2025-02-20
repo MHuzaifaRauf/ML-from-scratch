@@ -1,94 +1,82 @@
-# K-Nearest Neighbors (KNN) Implementation for Abalone Age Prediction
+# Machine Learning Algorithms from Scratch
 
-## Project Overview
+This repository contains implementations of fundamental machine learning algorithms built from scratch using Python. The implementations include Decision Trees, Logistic Regression, and K-Nearest Neighbors (KNN).
 
-This project implements a K-Nearest Neighbors (KNN) algorithm from scratch to predict the age of abalone based on physical measurements. The implementation includes finding the optimal K value, training the model, and evaluating its performance on both training and test sets.
+## Project Structure
+
+```
+├── decision_trees.py           # Decision Tree Classifier implementation
+├── logistic_regression.py      # Logistic Regression implementation
+├── logistic_decision.ipynb     # Comparison notebook for bank churn prediction
+├── KNN/                        # KNN implementation for Abalone age prediction
+└── requirements.txt
+```
+
+## Implemented Algorithms
+
+### 1. Bank Customer Churn Prediction
+
+Located in the root directory, using:
+
+- Decision Trees (`decision_trees.py`)
+- Logistic Regression (`logistic_regression.py`)
+
+Both algorithms are evaluated and compared in logistic_decision.ipynb using the Bank Customer Churn Prediction dataset from Kaggle.
+
+Results from the comparison:
+
+- Logistic Regression Accuracy: 80.35%
+- Decision Tree Accuracy: 85.75%
+
+### 2. Abalone Age Prediction
+
+Located in the KNN directory:
+
+- Implementation of K-Nearest Neighbors algorithm
+- Uses UCI Machine Learning Repository's Abalone dataset
+- Detailed documentation available in README.md
 
 ## Requirements
 
-To run this project, you need the following Python libraries:
-
-- pandas
-- numpy
-- scipy
-- scikit-learn
-- matplotlib
-
-You can install these libraries using pip:
+Install required packages using:
 
 ```bash
-pip install pandas numpy scipy scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
-## How to Run the Code
+## Usage
 
-1. Ensure you have Python 3.x installed on your system.
-2. Install the required libraries as mentioned above.
-3. Download the `KNN.ipynb` file.
-4. Open the notebook in Jupyter Notebook or JupyterLab.
-5. Run all cells in the notebook sequentially.
+1. For Bank Churn Prediction:
 
-## What the Code Does
+   ```python
+   from decision_trees import DecisionTreeClassifier
+   from logistic_regression import LogisticRegression
 
-1. **Data Loading and Preprocessing**:
+   # Initialize models
+   dt_model = DecisionTreeClassifier(max_depth=5, min_samples_split=2)
+   lr_model = LogisticRegression(learning_rate=0.0001, n_iters=1000)
+   ```
 
-   - Loads the Abalone dataset from UCI Machine Learning Repository.
-   - Drops the 'Sex' column as it doesn't impact the age prediction.
-   - Splits the data into features (X) and target variable (y).
+2. For Abalone Age Prediction:
+   - Navigate to the KNN directory
+   - Follow instructions in README.md
 
-2. **KNN Implementation**:
+## Model Parameters
 
-   - Implements a custom KNN class with fit and predict methods.
+### Decision Tree
 
-3. **Model Evaluation**:
+- `max_depth`: Maximum depth of the tree (default=5)
+- `min_samples_split`: Minimum samples required to split a node (default=2)
 
-   - Implements functions to calculate accuracy, precision, recall, and F1-score.
-   - Finds the best K value by testing a range of K values (1 to 99, odd numbers only).
+### Logistic Regression
 
-4. **Results Analysis**:
+- `learning_rate`: Step size for gradient descent (default=0.0001)
+- `n_iters`: Number of iterations (default=1000)
 
-   - Prints metrics for each K value tested.
-   - Identifies and reports the best K value.
-   - Trains the model with the best K and reports performance on both training and test sets.
+### KNN
 
-5. **Visualization**:
+- See README.md in KNN directory for detailed parameters and usage
 
-   - Plots the relationship between K values and accuracies (both training and test).
+## License
 
-6. **Results Saving**:
-   - Saves the results for each K value to a text file named 'k_values.txt'.
-
-## Interpreting the Results
-
-1. **Best K Value**:
-
-   - The program will output the best K value, which gives the highest test accuracy.
-
-2. **Performance Metrics**:
-
-   - For each K value tested, you'll see:
-     - Training Accuracy
-     - Test Accuracy
-     - Precision
-     - Recall
-     - F1-Score
-
-3. **Final Model Performance**:
-
-   - After determining the best K, the program will show the final model's performance on both training and test sets.
-
-4. **K vs. Accuracy Plot**:
-
-   - A plot will be generated showing how training and test accuracies change with different K values.
-
-5. **k_values.txt File**:
-   - This file contains detailed results for each K value tested, which can be useful for further analysis.
-
-## Understanding the Output
-
-- Higher accuracy, precision, recall, and F1-score indicate better model performance.
-- If training accuracy is significantly higher than test accuracy, it might indicate overfitting.
-- The best K value balances between overfitting (low K) and underfitting (high K).
-- The plot helps visualize how model performance changes with different K values.
-
-By analyzing these results, you can understand how well the KNN model performs in predicting abalone age and how different K values affect its performance.
+This project is licensed under the MIT License - see the LICENSE file for details.
