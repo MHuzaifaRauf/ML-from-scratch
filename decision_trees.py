@@ -1,3 +1,7 @@
+"""
+The implementation is based on this article: https://medium.com/@enozeren/building-a-decision-tree-from-scratch-324b9a5ed836
+"""
+
 import numpy as np
 from math import log2
 from collections import Counter

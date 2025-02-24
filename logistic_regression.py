@@ -1,3 +1,7 @@
+"""
+The implementation is based on this article: https://medium.com/@koushikkushal95/logistic-regression-from-scratch-dfb8527a4226
+"""
+
 import numpy as np
 
 
